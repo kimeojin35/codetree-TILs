@@ -1,1 +1,1 @@
-console.log("Let\'s do it")
+console.log("It\'s a really simple sentence")
