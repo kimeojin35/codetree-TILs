@@ -5,7 +5,7 @@ let current;
 current = a;
 a = c
 c = b
-b = a
+b = current
 console.log(a)
 console.log(b)
 console.log(c)
