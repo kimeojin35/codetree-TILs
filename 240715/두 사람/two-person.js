@@ -1,0 +1,5 @@
+const fs = require('fs')
+const [a, b] = fs.readFileSync(0).toString().split('\n')
+const [ageA, sexA] = a.split(' ')
+const [ageB, sexB] = b.split(' ')
+console.log((ageA >= 19 && sexA == 'M') || (ageB >= 19 && sexB == 'M') ? 1 : 0)
