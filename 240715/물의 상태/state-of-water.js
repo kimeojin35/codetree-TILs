@@ -1,3 +1,7 @@
 const fs = require('fs')
 const n = Number(fs.readFileSync(0))
-coonsole.log(n < 0 ? "ice" : (n >= 100 ? "vapor" : "water"))
+let answer = "water"
+if (n < 0) answer = "ice"
+else if (n >= 100) answer = "vapor"
+else answer = "water"
+coonsole.log(answer)
