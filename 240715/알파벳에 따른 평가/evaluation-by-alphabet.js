@@ -1,6 +1,6 @@
 const fs = require('fs')
 const n = fs.readFileSync(0).toString()
-let answer;
+let answer = 'Failure';
 switch(n) {
     case 'S': answer = 'Superior'; break;
     case 'A': answer = 'Excellent'; break;
