@@ -7,6 +7,6 @@ switch(n) {
     case 'B': answer = 'Good'; break;
     case 'C': answer = 'Usually'; break;
     case 'D': answer = 'Effort'; break;
-    default: answer = 'Failure'
+    default: answer = 'Failure'; break;
 }
 console.log(answer)
