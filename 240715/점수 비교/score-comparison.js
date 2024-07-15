@@ -1,0 +1,5 @@
+const fs = require('fs')
+const [a, b] = fs.readFileSync(0).toString().split('\n')
+const [mathA, englishA] = a.split(' ').map(Number)
+const [mathB, englishB] = b.split(' ').map(Number)
+console.log(mathA > mathB && englishA > englishB ? 1 : 0)
