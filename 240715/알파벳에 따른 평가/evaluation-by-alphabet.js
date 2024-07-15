@@ -1,5 +1,5 @@
 const fs = require('fs')
-const n = fs.readFileSync(0).toString()
+const n = fs.readFileSync(0).toString().trim()
 let answer = 'Failure';
 if (n == 'S') answer = 'Superior'
 else if (n == 'A') answer = 'Excellent'
