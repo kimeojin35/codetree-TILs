@@ -1,5 +1,5 @@
 const fs = require('fs')
-const n = fs.readFileSync(0)
+const n = fs.readFileSync(0).toString()
 let answer;
 switch(n) {
     case 'S': answer = 'Superior'; break;
