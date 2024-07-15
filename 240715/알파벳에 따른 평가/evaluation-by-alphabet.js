@@ -7,4 +7,4 @@ else if (n == 'B')answer = 'Good';
 else if (n == 'C') answer = 'Usually'
 else if (n == 'D') answer = 'Effort'
 else answer == 'Failure'
-le.log(answer)
+console.log(answer)
