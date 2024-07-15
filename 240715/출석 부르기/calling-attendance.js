@@ -5,6 +5,7 @@ switch(n) {
     case 1: answer = "John"; break;
     case 2: answer = "Tom"; break;
     case 3: answer = "Paul"; break;
+    default: answer = "Vacancy"
 }
 
 console.log(answer)
