@@ -1,3 +1,5 @@
 const fs = require('fs')
-const input = fs.readFileSync(0).toString().split(" ").map(Number)
-console.log(Math.max.apply(null, input))
+const [a, b, c] = fs.readFileSync(0).toString().split(" ").map(Number)
+if (a <= b && c <= b) console.log(b)
+else if (c <= a && b <= a ) console.log(a)
+else console.log(c)
